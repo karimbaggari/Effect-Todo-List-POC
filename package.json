@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,10 @@
   },
   "homepage": "https://github.com/karimbaggari/Effect-Todo-List-POC#readme",
   "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^5.0.6",
     "@types/node": "^25.0.9",
+    "@types/node-fetch": "^2.6.13",
     "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
@@ -27,7 +32,9 @@
   "dependencies": {
     "@effect-ts/core": "^0.60.5",
     "@effect-ts/system": "^0.57.5",
+    "body-parser": "^2.2.2",
     "effect": "^3.19.14",
+    "express": "^5.2.1",
     "node-fetch": "^3.3.2"
   }
 }
