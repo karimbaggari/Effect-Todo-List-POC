@@ -1,0 +1,33 @@
+{
+  "name": "effect-todo-list-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karimbaggari/Effect-Todo-List-POC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/karimbaggari/Effect-Todo-List-POC/issues"
+  },
+  "homepage": "https://github.com/karimbaggari/Effect-Todo-List-POC#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@effect-ts/core": "^0.60.5",
+    "@effect-ts/system": "^0.57.5",
+    "effect": "^3.19.14",
+    "node-fetch": "^3.3.2"
+  }
+}

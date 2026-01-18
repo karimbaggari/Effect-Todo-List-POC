@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",                        // Modern JS output
+    "module": "CommonJS",                      // Node default
+    "strict": true,                            // Enable all strict checks
+    "esModuleInterop": true,                   // Smooth interop with CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Prevent file name case issues
+    "skipLibCheck": true,                      // Skip type checks of node_modules
+    "outDir": "dist",                          // Compiled JS output
+    "rootDir": "src",                          // Source folder
+    "moduleResolution": "node",                // Node module resolution
+    "resolveJsonModule": true,                 // Allow importing JSON files
+    "noImplicitAny": true,                     // Catch implicit any types
+    "noUnusedLocals": true,                    // Catch unused variables
+    "noUnusedParameters": true,                // Catch unused function params
+    "noFallthroughCasesInSwitch": true,       // Safe switch statements
+    "useUnknownInCatchVariables": true         // Force proper typing for catch errors
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
